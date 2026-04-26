@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ぷよぷよ",
-  description: "モダンな！ぷよぷよゲーム — Next.js + React 19",
+  description: "モダンな！ぷよぷよゲームだよ — Next.js + React 19",
 };
 
 export default function RootLayout({
