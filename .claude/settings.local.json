@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(xcode-select --version)",
+      "Bash(pkgutil --pkg-info=com.apple.pkg.CLTools_Executables)",
+      "Bash(npx create-next-app@latest *)"
+    ]
+  }
+}
