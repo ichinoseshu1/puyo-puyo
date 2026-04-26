@@ -1,8 +1,5 @@
-import dynamic from 'next/dynamic';
-
-// ssr:false でゲームをクライアント専用にする（Math.random()のハイドレーションミスマッチ回避）
-const PuyoGame = dynamic(() => import('@/components/PuyoGame'), { ssr: false });
+import PuyoGameLoader from '@/components/PuyoGameLoader';
 
 export default function Home() {
-  return <PuyoGame />;
+  return <PuyoGameLoader />;
 }
